@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Burger - Restaurante de Hamburguesas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('fondo index.png');
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #6100FF;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff7e6;
+        }
+        table, th, td {
+            border: 2px solid #333;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        .marquesina {
+            background-color: #FFCE00;
+            color: #000;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Marquesina -->
+<marquee class="marquesina">🍔 ¡Ofertas de esta semana! Combo doble con papas GRATIS 🎉</marquee>
+
+    <!-- Audio de fondo -->
+    <audio controls loop>
+      <source src="SpongeBob Krusty Krab theme(MP3_160K).mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Encabezado -->
+    <header>
+        <nav>
+          <p style="font-size: 36px; text-align: center;">INICIO</p>
+            <ul>
+                <li><a href="SOBRE NOSOTROS.html">Sobre Nosotros</a></li>
+                <li><a href="MENU.html">Menú</a></li>
+                <li><a href="UBICACIONES Y HORARIOS.html">Ubicación</a></li>
+                <li><a href="PEDIDO ONLINE.html">Pedidos</a></li>
+            </ul>
+            <hr>
+      </nav>
+    </header>
+
+    <!-- Bienvenida -->
+    <section id="inicio">
+        <h1 style="text-align: center">Bienvenidos a Big Burger</h1>
+        <p style="font-size: 22px; text-align: center;"><strong>Las mejores hamburguesas de la ciudad. ¡Ven y disfruta de nuestra experiencia única!</strong></p>
+        <p style="text-align: center;"><a href="MENU.html" style="font-size: 24px">Ver Menú</a></p>
+        <hr>
+    </section>
+
+    <!-- Tabla de combos -->
+    <section id="tabla-combos">
+        <h2 style="text-align: center;">Nuestros Combos</h2>
+        <table>
+            <tr>
+                <th>Combo</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Big Combo</td>
+                <td>Hamburguesa doble + papas + bebida</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Combo Clásico</td>
+                <td>Hamburguesa sencilla + papas</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Combo Kids</td>
+                <td>Mini hamburguesa + jugo + juguete</td>
+                <td>$80</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Video presentación -->
+    <section id="video">
+        <h2 style="text-align: center;">Conoce Big Burger</h2>
+        <div style="text-align: center;">
+          <video width="600" controls>
+            <source src="BURGER 🍔 Video Publicitario HAMBURGUESA _ BROLL(720P_HD).mp4" type="video/mp4">
+          </video>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios">
+        <h2>Reseñas</h2>
+        <blockquote>"Las mejores hamburguesas que he probado, totalmente recomendables!" - Juan P.</blockquote>
+        <blockquote>"Excelente servicio y ambiente, ¡volveré pronto!" - Laura S.</blockquote>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>También puedes contactarnos a través de nuestras redes sociales:</p>
+        <ul>
+            <li><a href="https://facebook.com/bigburger">Facebook</a></li>
+            <li><a href="https://instagram.com/bigburger">Instagram</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Big Burger. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
